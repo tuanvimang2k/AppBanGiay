@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:background="@drawable/shapemain5"
+    android:padding="10dp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sửa giày"
+        android:textColor="#F8F6F6"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:textStyle="bold"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ảnh"
+            android:textColor="#D2F4EFEF"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="*"
+            android:textColor="#FCFF0303"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/anhGiay"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/giaythoitrang" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tên giày"
+            android:textColor="#8FECE8E8"
+            android:textSize="12sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="*"
+            android:textSize="12sp"
+            android:textColor="#FCFF0303"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+
+
+
+    <EditText
+        android:id="@+id/tenGiay"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:hint="Vd:Nike Ultra"
+        android:textSize="20sp"
+        android:background="@drawable/gradient_edittext"
+        android:paddingLeft="10dp"
+        android:textStyle="italic"/>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Giá giày"
+            android:textColor="#8FF3F0F0"
+            android:textSize="12sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="*"
+            android:textSize="12sp"
+            android:textColor="#FCFF0303"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/giaGiay"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:hint="Vd:3.000.000vnđ"
+        android:textSize="20sp"
+        android:background="@drawable/gradient_edittext"
+        android:paddingLeft="10dp"
+        android:textStyle="italic"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Màu sắc"
+            android:textColor="#8FF6F5F5"
+            android:textSize="12sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="*"
+            android:textSize="12sp"
+            android:textColor="#FCFF0303"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/mauSac"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/gradient_edittext"
+        android:hint="Vd:trắng"
+        android:paddingLeft="10dp"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kích cỡ"
+            android:textColor="#8FFAF8F8"
+            android:textSize="12sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="*"
+            android:textSize="12sp"
+            android:textColor="#FCFF0303"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+
+
+
+    <EditText
+        android:id="@+id/kichCo"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:hint="Vd:42"
+        android:textSize="20sp"
+        android:background="@drawable/gradient_edittext"
+        android:paddingLeft="10dp"
+        android:textStyle="italic"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mã loại giày"
+            android:textColor="#8FF8F5F5"
+            android:textSize="12sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="*"
+            android:textSize="12sp"
+            android:textColor="#FCFF0303"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+
+
+
+    <Spinner
+        android:id="@+id/spnLoaiGiay"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:textSize="20sp"
+        android:background="@drawable/gradient_edittext"
+        android:paddingLeft="10dp"
+        android:textStyle="italic"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+
+        >
+
+
+        <Button
+            android:id="@+id/btnHuy"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Huỷ"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="#FD5F44"
+            android:textAlignment="center"
+            />
+
+
+
+
+        <Button
+            android:id="@+id/btnSua"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Sửa"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:backgroundTint="#FD5F44"
+            android:textAlignment="center"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

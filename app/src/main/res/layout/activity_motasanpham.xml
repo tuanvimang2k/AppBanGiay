@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.motasanpham"
+    android:id="@+id/linnia"
+    android:background="@drawable/gradient"
+
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient_edittext"
+        android:orientation="vertical"
+        >
+
+
+        <ImageView
+            android:id="@+id/imganhne"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="-50dp"
+            android:src="@drawable/giayy" />
+
+        <ImageView
+
+            android:layout_width="450dp"
+            android:layout_height="60dp"
+            android:paddingRight="50dp"
+            android:src="@drawable/motasp" />
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtgia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3.000.000 VNĐ"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:layout_gravity="start"
+        android:textColor="#884502"
+        />
+
+    <TextView
+        android:id="@+id/txtten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_margin="5dp"
+        android:text="Nike React Infinity Run"
+        android:textColor="#884502"
+        android:textSize="22sp"
+        android:padding="5dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_margin="5dp"
+        android:text="Mô tả"
+        android:textColor="#884502"
+        android:textSize="15sp"
+        android:padding="5dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_margin="10dp"
+        android:text="Nike React  Infinity React Run là một ngôi sao lớn và có hiệu suất bán chạy rất cao.Lớp đệm bổ sung và nút xoay mang đến cho người mang trải nghiệm rất mới lạ và thoải mái .... Xem thêm"
+        android:textColor="#884502"
+        android:textAlignment="textStart"
+        android:textSize="14sp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Size"
+
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="30dp"
+            android:textColor="#884502"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Màu sắc"
+            android:textSize="17sp"
+           android:layout_marginLeft="250dp"
+            android:textStyle="bold"
+            android:textColor="#884502"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+        <LinearLayout
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/shapemain"
+            android:gravity="center"
+
+            android:orientation="vertical"
+
+            >
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="38"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/shapemain"
+            android:gravity="center"
+
+            android:orientation="vertical"
+
+            >
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="39"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/shapemain"
+            android:gravity="center"
+
+            android:orientation="vertical"
+
+            >
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="40"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold"
+
+
+                />
+
+        </LinearLayout>
+
+        <Spinner
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="150dp"
+
+            android:backgroundTint="#884502"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="30dp"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+
+            android:text="Số lượng:"
+            android:textColor="#884502"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:textStyle="bold"
+            />
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:hint="-"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:textSize="14sp"/>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="#884502"
+            android:textSize="18sp"
+
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:hint="+"
+            android:textAlignment="center"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:textSize="14sp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="65dp"
+        android:gravity="center"
+
+
+        >
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/MuaNgay"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+          android:layout_margin="5dp"
+
+            android:backgroundTint="@color/white"
+
+            >
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+
+                android:text="Mua ngay"
+                android:drawableLeft="@drawable/icon_dongy"
+                android:drawablePadding="5dp"
+                android:textAlignment="center"
+                android:textColor="#FD5F44"
+
+                android:textSize="13sp"
+
+                android:textStyle="bold" />
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/btndathang"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/white"
+            android:text="Thêm vào giỏ hàng"
+            android:textSize="10sp"
+            android:layout_marginLeft="15dp"
+            android:drawableLeft="@drawable/icon_giohang"
+
+            android:textColor="#FD5F44"
+
+
+
+            android:textStyle="bold">
+
+
+        </Button>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

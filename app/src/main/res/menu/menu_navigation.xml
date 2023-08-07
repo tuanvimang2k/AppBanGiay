@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menuThemGiay"
+        android:title="Quản lí giày"
+        android:icon="@drawable/icon_trangchu">
+
+    </item>
+
+    <item android:id="@+id/menuThemLoai"
+        android:title="Quản lí loại giày"
+        android:icon="@drawable/icon_trangchu">
+
+    </item>
+
+    <item android:id="@+id/menuXuLiDon"
+        android:title="Xử lí đơn hàng"
+        android:icon="@drawable/icon_trangchu">
+
+    </item>
+
+    <item android:id="@+id/menu4"
+        android:title="Thống kê"
+        android:icon="@drawable/icon_trangchu">
+        <menu>
+            <item android:id="@+id/menuDoanhThu"
+                android:title="Doanh Thu"
+                android:icon="@drawable/icon_trangchu"/>
+            <item android:id="@+id/menu4.2"
+                android:title="item4.2"
+                android:icon="@drawable/icon_trangchu"/>
+        </menu>
+
+    </item>
+
+    <item android:id="@+id/menu5"
+        android:title="Tài khoản"
+        android:icon="@drawable/icon_trangchu">
+
+        <menu>
+            <item android:id="@+id/menuDangXuat"
+                android:title="Đăng xuất "
+                android:icon="@drawable/icon_trangchu"/>
+            <item android:id="@+id/menuDoiMatKhau"
+                android:title="Đổi mật khẩu"
+                android:icon="@drawable/icon_trangchu"/>
+        </menu>
+
+    </item>
+
+
+    <item android:id="@+id/menuThoat"
+        android:title="Thoát"
+
+        android:icon="@drawable/icon_trangchu">
+
+    </item>
+
+
+
+</menu>

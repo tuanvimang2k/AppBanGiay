@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication"
+        tools:targetApi="31">
+        <activity
+            android:name=".activity.thongkene"
+            android:exported="true" />
+        <activity
+            android:name=".activity.TrangCaNhanKhach"
+            android:exported="true" />
+        <activity
+            android:name=".activity.Webview"
+            android:exported="true" />
+        <activity
+            android:name=".XuLiDonHangActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.LoaiGiayActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.LichSuDonHang"
+            android:exported="true" />
+        <activity
+            android:name=".activity.DonHangActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.chat_box"
+            android:exported="true" />
+        <activity
+            android:name=".activity.test_quangcao"
+            android:exported="true" />
+        <activity
+            android:name=".activity.Splash_Screen_new"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.GioHang"
+            android:exported="true" />
+        <activity
+            android:name=".activity.MainAdmin"
+            android:exported="true" >
+
+        </activity>
+        <activity
+            android:name=".activity.Deltalitem"
+            android:exported="false" />
+        <activity
+            android:name=".activity.Serch"
+            android:exported="true" />
+        <activity
+            android:name=".activity.testThemHienGiay"
+            android:exported="true" />
+        <activity
+            android:name=".activity.TestHienGiay"
+            android:exported="true" />
+        <activity
+            android:name=".activity.motasanpham"
+            android:exported="true" />
+        <activity
+            android:name=".activity.doimatkhau"
+            android:exported="true" />
+        <activity
+            android:name=".activity.MainKhach"
+            android:exported="true" />
+        <activity
+            android:name=".activity.quangcao"
+            android:exported="true" />
+        <activity
+            android:name=".activity.dangki"
+            android:exported="true" />
+        <activity
+            android:name=".activity.dangnhap"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".activity.SplashScreen"
+            android:exported="true" />
+        <activity
+            android:name=".activity.testlist"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.ListAllProduct_theoloai"
+            android:exported="true" />
+        <activity
+            android:name=".activity.GioHangActivity"
+            android:exported="true" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

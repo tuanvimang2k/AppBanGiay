@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+    android:background="@android:color/transparent"
+    android:padding="5dp"
+
+    >
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="@android:color/transparent"
+        android:orientation="horizontal"
+
+
+        >
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:id="@+id/imgAnh"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/shapemain5"
+
+            android:src="@drawable/giayleonui" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtTengiay"
+                android:text="Bitis Hunter Air 4"
+                android:textColor="@color/white"
+                android:textSize="19sp"
+                android:textStyle="bold"
+
+                />
+
+
+            <TextView
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Xanh đậm "
+                android:textAlignment="textStart"
+                android:textColor="#FD979696"
+
+                />
+
+            <TextView
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Size : 42 "
+                android:textAlignment="textStart"
+                android:textColor="#FD979696"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtGia"
+                android:layout_gravity="left"
+                android:text="2.499.000VNĐ"
+                android:textColor="#F5FB0303"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/xoaGioHang"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+
+            android:backgroundTint="@android:color/transparent"
+            android:drawableBottom="@drawable/xoa"
+            android:layout_marginLeft="10dp"
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/gradient"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thêm giày"
+        android:textColor="#9d6855"
+        android:textSize="25sp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/tengiay"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="15sp"
+        android:layout_margin="5dp"
+        android:drawablePadding="10dp"
+        android:drawableLeft="@drawable/icon_tengiay"
+        android:background="@drawable/gradient_edittext"
+        android:hint="Nhập tên giày"/>
+
+    <EditText
+        android:id="@+id/gia"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/gradient_edittext"
+        android:drawableLeft="@drawable/icon_giagiay"
+        android:drawablePadding="10dp"
+        android:hint="Nhập giá"
+        android:layout_margin="5dp"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/mausac"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="15sp"
+        android:drawablePadding="10dp"
+        android:layout_margin="5dp"
+        android:drawableLeft="@drawable/icon_maugiay"
+        android:background="@drawable/gradient_edittext"
+        android:hint="Nhập màu sắc" />
+
+    <EditText
+        android:id="@+id/kichco"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:drawableLeft="@drawable/icon_size"
+        android:drawablePadding="10dp"
+        android:textSize="15sp"
+        android:layout_margin="5dp"
+        android:background="@drawable/gradient_edittext"
+        android:hint="Nhập kích cỡ"/>
+
+    <Spinner
+        android:id="@+id/spnMaloaigiay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_margin="5dp"
+        android:hint="maloaigiay" />
+
+    <ImageView
+        android:id="@+id/anh"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/chupAnh"
+            android:layout_width="155dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+
+android:layout_margin="5dp"
+            android:drawableLeft="@drawable/icon_chupanh"
+            android:textColor="#FD5F44"
+            android:textSize="12sp"
+            android:backgroundTint="@color/white"
+            android:text="chụp ảnh" />
+
+        <Button
+            android:id="@+id/layAnh"
+            android:layout_width="155dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:textSize="12sp"
+            android:drawableLeft="@drawable/icon_layanh"
+            android:layout_margin="5dp"
+            android:textColor="#FD5F44"
+            android:backgroundTint="@color/white"
+            android:text="Lấy ảnh"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/themGiay"
+        android:layout_width="155dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:textSize="12sp"
+        android:drawableLeft="@drawable/icon_dongy"
+        android:layout_margin="5dp"
+        android:textColor="#FD5F44"
+        android:textStyle="bold"
+        android:backgroundTint="@color/white"
+        android:text="Thêm giày"/>
+
+
+
+</LinearLayout>

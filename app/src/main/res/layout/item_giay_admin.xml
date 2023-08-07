@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+
+    android:layout_marginLeft="20dp"
+    android:padding="5dp"
+
+    android:background="@drawable/shape4"
+
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:id="@+id/capNhat"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_gravity="right"
+        android:background="@android:color/transparent"
+        android:backgroundTint="@android:color/transparent"
+        android:drawableBottom="@drawable/sua"
+        />
+
+    <ImageView
+        android:id="@+id/anh"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/air"
+
+        />
+
+
+
+    <TextView
+        android:id="@+id/tengiay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Nike Air Fly"
+        android:textColor="#884502"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/gia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="2.344.999 VNĐ"
+        android:textColor="#884502"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+
+
+
+</LinearLayout>

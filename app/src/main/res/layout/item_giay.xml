@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+        <TextView
+            android:id="@+id/tengiay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="tengiay"/>
+        <TextView
+            android:id="@+id/gia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="gia"/>
+        <TextView
+            android:id="@+id/soluong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="soluong"/>
+        <TextView
+            android:id="@+id/mausac"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="mausac"/>
+        <TextView
+            android:id="@+id/kichco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="kichco"/>
+        <TextView
+            android:id="@+id/maloaigiay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="maloaigiay"/>
+    </LinearLayout>
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/anh"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        />
+    <Button
+        android:layout_marginLeft="10dp"
+        android:id="@+id/capNhat"
+        android:text="cập nhật"
+        android:layout_width="100dp"
+        android:layout_height="80dp"/>
+</LinearLayout>

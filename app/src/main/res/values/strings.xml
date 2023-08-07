@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="action_serch">Search</string>
+
+    <string name="tittle1">Xin chào !</string>
+    <string name="tittle2">Tìm sản phẩm</string>
+    <string name="tittle3">Đơn hàng của bạn đang đến</string>
+    <string name="tittle4">Order và tận hưởng</string>
+    <string name="subtittle1">Chào mừng đến app của chúng tôi.\nApp này giúp bạn tìm sản phẩm tốt nhất với giá cả tốt nhất.</string>
+    <string name="subtittle2">Tìm sản phẩm bạn muốn mua và thêm chúng vào giỏ hàng.\nĐược chứ ? Thanh toán nào .</string>
+    <string name="subtittle3">Sản phẩm sẽ được giao đến bạn nhanh nhất có thể.</string>
+    <string name="subtittle4">Chúc mừng bạn,bạn đã có được sản phẩm mong muốn. \nTận hưởng chúng !</string>
+
+
+</resources>
